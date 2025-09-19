@@ -1,3 +1,72 @@
 body {
     background-color: hsl(47, 88%, 63%);
+
+}
+
+
+
+
+#card {
+    width: 450px;
+    background-color: white;
+    margin: 40px auto ;
+    border-radius: 20px;
+    box-shadow: 7px 10px black;
+    border-top: 2px solid black;   
+    border-left: 2px solid black;
+}
+
+.imagem-principal {
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    margin: 10px 40PX;
+    padding-top: 20px;
+    border-radius: 8px 8px;
+}
+
+#card p {
+    font-size: 16px;
+    color: hsl(0, 2%, 25%);
+    text-align: left;
+    margin: 30px;}
+
+#titulo1 {
+    margin: 30px;
+    text-align: left;
+    transition: 0.5s;
+}
+
+#titulo1:hover {
+    color: orange;
+}
+
+#titulo3 {
+    display: block;
+    background-color: hsl(47, 88%, 63%);
+    text-align: left;
+    margin-right: 300px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+.autor {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: flex-start;
+}
+
+.autor img {
+    width: 40px;
+    margin-top: 3px;
+    margin-left: 20px;
+
+}
+
+.autor h6{
+    margin: 0, 10px;
+    font-size: 14px;
+    line-height: 20px;
 }
